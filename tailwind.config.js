@@ -19,7 +19,7 @@ module.exports = {
         'universe': "url('/img/universe-1566159.jpg')",
       },
       boxShadow: {
-        neon: "0 0 20px theme('colors.purple.200'), 0 0 20px theme('colors.purple.700')"
+        neon: "0 0 20px theme('colors.yellow.200'), 0 0 20px theme('colors.yellow.700')"
       },
     },
   },

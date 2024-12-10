@@ -845,7 +845,7 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 }
 
 .shadow-neon {
-  --tw-shadow: 0 0 20px #e9d5ff, 0 0 20px #7e22ce;
+  --tw-shadow: 0 0 20px #fef08a, 0 0 20px #a16207;
   --tw-shadow-colored: 0 0 20px var(--tw-shadow-color), 0 0 20px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
