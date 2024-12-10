@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <meta
+      name="description"
+      content="Cosmic Coding is a webpage dedicated to my love of computers and software."
+    />
+    <meta name="author" content="Steve Carrillo" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Cosmic Coder</title>
+  </head>
+  <body class="bg-black text-white">
+    <!-- Background Image Section -->
+    <div
+      id="particles-js"
+      class="relative h-screen bg-cover bg-center select-none"
+      style="background-image: url('/img/universe-1566159.jpg')"
+    >
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div
+        class="absolute inset-0 flex items-center justify-center text-center"
+      >
+        <h1 class="text-6xl font-bold text-white font-sans">Cosmic Coder</h1>
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container mx-auto px-4 py-8">
+      <h2 class="text-4xl font-bold mb-4">Welcome to Cosmic Coder</h2>
+      <div
+        class="text-lg mb-8 delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0"
+        data-taos-offset="100"
+        data-taos-duration="600"
+        data-taos-easing="ease-in-out"
+        data-taos-once="false"
+      >
+        This is a webpage dedicated to my love of computers and software. Here,
+        you will find various projects, tutorials, and musings about the world
+        of coding and technology.
+      </div>
+      <h3 class="text-3xl font-bold mb-4">Featured Projects</h3>
+      <ul class="list-disc ml-8">
+        <li class="mb-4 list-none">
+          <!-- Card Example -->
+          <div
+            class="taos group relative shadow-neon bg-white rounded-lg overflow-hidden transition-transform transform-gpu hover:scale-105 delay-[150ms] duration-[1500ms] taos:translate-x-[-100%] taos:opacity-0"
+            data-taos-offset="100"
+            data-taos-duration="1500"
+            data-taos-easing="ease-in-out"
+            data-taos-once="false"
+          >
+            <div class="flex items-center justify-center h-50">
+              <img
+                src="./img/manage-project.png"
+                alt="Project 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">Project 1</h3>
+              <p class="text-gray-700">Description of project 1.</p>
+              <a
+                target="_blank"
+                href="https://manage-landing-page-355.pages.dev/"
+                class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-colors"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Additional Empty Space for Testing Sliding Effects -->
+    <div class="h-200"></div>
+
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        taos.init();
+      });
+    </script>
+  </body>
+</html>
